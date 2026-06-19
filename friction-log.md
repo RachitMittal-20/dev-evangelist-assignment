@@ -186,6 +186,31 @@ button and no title or description — because project sub-fields (title,
 description, link) were never defined inside the Collection field. No 
 guidance on how to add sub-fields to a Collection.
 
+[14:00] [FRICTION] clicking + on Projects collection adds a new "Projects" 
+row but it's completely empty — no sub-fields to fill in (no title, 
+description, link). Collection field has no defined schema for its items. 
+New user has no idea how to add fields to a collection item.
+
+[14:01] [FRICTION] Collection items have no sub-fields — expanding a 
+Projects row shows nothing. Collection field type creates repeatable 
+rows but provides no way to define what fields each row contains. 
+This is a significant docs gap — no explanation of how to structure 
+collection items anywhere in the UI.
+
+[14:04] [FRICTION] editing a Collection field only shows Label, Handle, 
+and "Multiple values?" toggle — no way to add sub-fields to the collection 
+from here. Collection sub-fields cannot be defined through the field editor. 
+Completely undiscoverable.
+
+[14:05] [FRICTION] Reference field requires selecting an existing "entries 
+schema record" from a dropdown — but no entries schema exists yet. Must 
+first create an Entry model before a Reference field can be added. 
+Circular dependency with no guidance on correct order of operations.
+
+[14:07] [DELIGHT] empty Entry model shows a helpful empty state with 
+"Your fields will be shown here" and a "MODEL BUILDER" option — 
+better onboarding than the blank Pages model screen.
+
 ---
 
 ## Day 2 — Finishing Build & Publish
