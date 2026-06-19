@@ -227,6 +227,10 @@ configuration needed.
 checkmark and direct URL — clean, satisfying deploy experience. 
 One click from preview to public URL.
 
+[14:33] [DELIGHT] Deploy panel shows build history with timestamps — 
+can see all previous builds and roll back to any version. 
+Unexpectedly powerful version control for deployments.
+
 ---
 
 ## Day 2 — Finishing Build & Publish
