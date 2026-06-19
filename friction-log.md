@@ -98,7 +98,93 @@ inline — just Label, Handle, and "Multiple values?" toggle. No indication
 of how to define what each project item contains (title, description, link, 
 stack). New user has no idea what to do next.
 
+[13:33] [FRICTION] Entries tab is empty with no connection to the Home page 
+model just built — no indication that "NEW ENTRY" here will let you fill 
+in the Home page fields. Relationship between Models and Entries is unclear 
+to a new user.
 
+[13:33] [FRICTION] clicking "+ NEW ENTRY" opens "New content model" — not 
+a content entry form. Expected to fill in my homepage content, instead 
+being asked to create another model. Entries tab does not connect to the 
+Home page model already built. Completely confusing — two separate concepts 
+with no explanation of the difference.
+
+[13:36] [FRICTION] clicking the Home row collapses/expands fields — not 
+obvious that the pencil icon is needed to edit page settings. No "fill 
+content" button visible anywhere on this screen. New user cannot find 
+where to actually enter content for the homepage.
+
+[13:38] [FRICTION] "PREVIEW" button does not show a visual preview — it 
+stays on the same screen. The actual site builder is accessed via a code 
+icon (</>) next to the pencil icon on the Home row, not via PREVIEW. 
+Completely non-obvious. New user would never find this.
+
+[13:38] [FRICTION] clicking the code editor opens an EJS template file 
+"/views/pages/_index.ejs" with just one line: <h1><%= item.title %></h1>. 
+This is a code editor, not a visual builder. SleekCMS requires writing 
+EJS templates to build pages — this is NOT a no-code tool despite the 
+homepage implying otherwise.
+
+[13:42] [DELIGHT] code editor has syntax highlighting, line numbers, and 
+clean EJS rendering — comfortable for a developer to work in.
+
+[13:43] [DELIGHT] Context tab shows a live data preview of all fields — 
+can see title, hero_heading, bio, bio_short, avatar, github_url, 
+linkedin_url, projects all showing "null" — confirms fields are connected 
+to the template correctly but content not yet filled in.
+
+[13:44] [FRICTION] no way to fill in page content from the Models view — 
+clicking the Home row only collapses/expands fields. Pencil opens page 
+settings. Code icon opens template editor. Curly braces collapses fields. 
+Zero path to actual content entry from this screen.
+
+[13:45] [FRICTION] three dots menu on Home row shows only "JSON to fields" 
+and "Delete model" — no "Edit content" or "Fill in content" option anywhere 
+in the Models view. Content entry path is completely hidden from this screen.
+
+[13:48] [FRICTION] content entry form is under "Content" in the left 
+sidebar — completely separate from Models, Builder, and Integrate sections. 
+Took significant exploration to find. No indication from the Models screen 
+that "Content" is where you fill in page data. New user would waste 
+significant time searching.
+
+[13:48] [DELIGHT] once found, Content screen shows a clean form with all 
+8 fields correctly labeled and ready to fill — Title, Hero Heading, Bio, 
+Bio Short, Avatar, GitHub URL, LinkedIn URL, Projects. Exactly what was 
+needed.
+
+[13:52] [DELIGHT] content save shows a clean "updated" popup confirmation — 
+simple and clear.
+
+[13:53] [FRICTION] preview still blank after filling in content and saving — 
+shows "13 minutes" next to DEPLOY button suggesting last build was 13 minutes 
+ago. Content changes don't auto-rebuild the preview. No indication that 
+REBUILD is required after content changes.
+
+[13:55] [DELIGHT] content renders correctly after REBUILD — all fields 
+showing: hero heading, bio short, about section, bio, projects section. 
+EJS template is working correctly.
+
+[13:55] [FRICTION] text is completely unstyled — no CSS applied, all 
+content runs together with no visual hierarchy. No default styles provided 
+for a blank site. Developer must write all CSS from scratch.
+
+[13:55] [FRICTION] "Full-Stack Developer & AI Builder" hero heading is 
+overlapping with the bio text — layout broken because there is no CSS. 
+Confusing for new users who expect at least minimal default styling.
+
+[13:57] [DELIGHT] CSS file is pre-configured with Tailwind CSS, typography 
+plugin, forms plugin, and DaisyUI — powerful setup out of the box. No 
+manual Tailwind configuration needed.
+
+[13:58] [DELIGHT] Tailwind + DaisyUI classes render correctly in preview — 
+hero section, buttons, about section, and project card all styled properly 
+with zero custom CSS written. Powerful out of the box.
+
+[13:58] [FRICTION] Projects section shows a card with only "View Project" 
+button and no title or description — because project sub-fields (title, 
+description, link) were never defined inside the Collection field. No 
+guidance on how to add sub-fields to a Collection.
 
 ---
 
