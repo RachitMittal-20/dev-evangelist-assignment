@@ -7,8 +7,7 @@ along the way.
 
 ## Live site
 
-> TODO: add live URL once published (Day 2)
-
+> TODO: [rachit-mittal-portfo-mqkmena2.sleekcms.site](https://rachit-mittal-portfo-mqkmena2.sleekcms.site)
 ## What's in this repo
 
 - [`friction-log.md`](./friction-log.md) — raw, timestamped notes captured

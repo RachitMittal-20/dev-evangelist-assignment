@@ -219,6 +219,14 @@ No manual wiring needed.
 DaisyUI card styling — ContentIQ, Sentiment Analyser AI, and NoirBrew 
 all showing correct content pulled from Reference entries.
 
+[14:20] [DELIGHT] deploy modal clearly explains the choice — free subdomain 
+vs custom domain, with a pre-filled subdomain. Clean and simple. No server 
+configuration needed.
+
+[14:22] [DELIGHT] "Your site is live!" confirmation modal with green 
+checkmark and direct URL — clean, satisfying deploy experience. 
+One click from preview to public URL.
+
 ---
 
 ## Day 2 — Finishing Build & Publish
