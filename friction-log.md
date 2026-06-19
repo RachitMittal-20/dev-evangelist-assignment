@@ -211,6 +211,14 @@ Circular dependency with no guidance on correct order of operations.
 "Your fields will be shown here" and a "MODEL BUILDER" option — 
 better onboarding than the blank Pages model screen.
 
+[14:16] [DELIGHT] Reference field auto-shows all created project entries 
+as selectable options — all 3 projects already linked with checkmarks. 
+No manual wiring needed.
+
+[14:18] [DELIGHT] project cards render perfectly in 3-column grid with 
+DaisyUI card styling — ContentIQ, Sentiment Analyser AI, and NoirBrew 
+all showing correct content pulled from Reference entries.
+
 ---
 
 ## Day 2 — Finishing Build & Publish
