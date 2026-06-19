@@ -231,6 +231,11 @@ One click from preview to public URL.
 can see all previous builds and roll back to any version. 
 Unexpectedly powerful version control for deployments.
 
+[14:36] [FRICTION] live deployed site renders differently from preview — 
+skill badges lose styling and render as unstyled inline text on live URL. 
+Tailwind classes that work in preview don't always compile correctly 
+in production build. No warning about this discrepancy.
+
 ---
 
 ## Day 2 — Finishing Build & Publish
